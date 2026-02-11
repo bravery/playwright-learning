@@ -4,6 +4,15 @@ test.describe('Basic Playwright Examples', () => {
   test('should navigate to example.com', async ({ page }) => {
     await page.goto('https://example.com');
     await expect(page).toHaveTitle('Example Domain');
+    
+    // 练习：添加更多断言
+    await expect(page.locator('h1')).toHaveText('Example Domain');
+    
+    // 使用更具体的定位器
+    await expect(page.locator('p').first()).toHaveText(/This domain is/);
+    
+    // 或者使用文本定位器
+    await expect(page.getByText('This domain is for use in')).toBeVisible();
   });
 
   test('should fill and submit a form', async ({ page }) => {
