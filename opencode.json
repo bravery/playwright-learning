@@ -1,0 +1,25 @@
+{
+    "provider": {
+      "myprovider": {
+	"name": "TEMU-AI",
+	"npm": "@ai-sdk/openai-compatible",
+	"models": {
+          "inhouse-model": {
+            "name": "自研"
+        }
+      },
+	"options": {
+          "baseURL": "https://tech.kuajing.team/pai/pytorchjob/cnt1-ml-bk8s/pai-chatalgo/chat-queshan-model-236b-8card-1/tensorboard/v1",
+          "headers": {
+              "cookie": "srefid=CmPgxWkP9OGVBQBALML2Ag==; _nano_fp=XpmjX5EynqCalpXYXT_ZVoIV9iFN8GPQZ9VKCZO~; api_uid=CmlQeWlYhiRln8zWDqd1Ag==; ajs_anonymous_id=6f96f617-59b4-4673-8d84-d4dbf3b37f27; __Secure-next-auth.csrf-token=3161dab3b819244b1bc1d55fff844ce74e72a61124890951682c11a280ad691d%7C677162f53c1510791539507e786cc185539cd37b22c035fb75c8fa83c35fa14a; __Secure-next-auth.callback-url=https%3A%2F%2Ftech.kuajing.team; nezha_user_session=U1QtNDA5Ni0wVy1UaTlpUFJEZU5oSGdFTXVoUWdWTDhpTFlzc29jbmtqdGVtdQ==; nezha_user=jingzhe; SUB_PASS_ID=D_eyJ0IjoianI3dkM4WHlqNjdhTzlUckhqQ1U1L2l5UFFIYlo5N1Bld0ovVXZOOUlCK1BDQk8rU3BvVmM5ZmNURHpYeXNMQSIsInYiOjEsInMiOjEsInUiOjI0Mzc1MjI4NDEyNDZ9; kubeflow-userid=59AZ9TvUmG07IteLgoW7Y/3hXaUbN131wLwJa6NLWaIlq8HRz4xifIfB0nur45hCFxab6J7yMleuU1+V3T/2dpCtkXGTHIfAJ75CBBMY2qn2SYZJbW50EPI9WX7UsvBiJPv7SogIvG8rwAhcnc1vwhdw5tNqYFeZlvbiFR/b5J4="
+          }
+	}
+      }
+    },
+    "$schema": "https://opencode.ai/config.json",
+    "permission": {
+	"webfetch": "deny",
+	"websearch": "deny"
+    }
+
+}
